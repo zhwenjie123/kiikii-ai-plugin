@@ -1,0 +1,59 @@
+{
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "name": "kiikii",
+    "version": "0.9.0",
+    "description": "在 AI 客户端中使用 kiikii：查询积分，管理数字人形象与音色，生成数字人口播、MV、带货、探店视频，也可生成图片、通用视频与配音。",
+    "extensions": {
+        "ai.workbuddy": {
+            "auth": {
+                "mode": "oauth"
+            },
+            "display": {
+                "name": "kiikii",
+                "name_zh": "kiikii",
+                "name_en": "kiikii",
+                "description_zh": "在 AI 客户端中使用 kiikii：查询积分，管理数字人形象与音色，生成数字人口播、MV、带货、探店视频，也可生成图片、通用视频与配音。",
+                "description_en": "Use kiikii inside AI clients to check credits, manage digital-human avatars and voices, create talking-head, MV, commerce and store-visit videos, and generate images, general videos and voiceovers.",
+                "examples_zh": [
+                    "请生成一个30秒讲解视频，主题是地球环保科普",
+                    "用我的数字人形象，做一条30秒咖啡产区知识讲解口播",
+                    "上传这张商品图，做一条20秒电商带货视频，突出降噪卖点",
+                    "用这几张门店照片，做一条30秒探店宣传视频，重点介绍招牌菜",
+                    "克隆这张照片里的形象，名字叫「小林」",
+                    "用一镜到底模式，做一条40秒企业介绍口播",
+                    "生成一张雨后的江南小巷图片，16:9，电影感",
+                    "用我的45岁女性声音，把这段话配成音频：欢迎使用 kiikii",
+                    "生成一段5秒雨巷空镜视频，不要人物",
+                    "用这张图做首帧，让人物微笑并缓慢点头"
+                ],
+                "examples_en": [
+                    "Create a 30-second explainer video about environmental protection",
+                    "Use my digital human to make a 30-second coffee-origin explainer",
+                    "Use this product photo to make a 20-second e-commerce video highlighting noise cancellation",
+                    "Use these store photos to make a 30-second store-visit video featuring the signature dishes",
+                    "Clone the person in this photo as an avatar named “Xiao Lin”",
+                    "Make a 40-second continuous-take company introduction video",
+                    "Generate a cinematic image of a rainy Jiangnan alley, 16:9",
+                    "Voice this text with a 45-year-old female voice: Welcome to kiikii",
+                    "Generate a 5-second empty rainy alley video with no people",
+                    "Use this image as the first frame and make the person smile and nod slowly"
+                ]
+            },
+            "policy": {
+                "mcpServers": {
+                    "kiikii": {
+                        "timeout": 120000
+                    }
+                },
+                "minWorkbuddyVersion": "5.8.2"
+            },
+            "schemaVersion": "1.0.0"
+        }
+    },
+    "keywords": [
+        "mcp",
+        "skills",
+        "digital-human",
+        "video"
+    ]
+}

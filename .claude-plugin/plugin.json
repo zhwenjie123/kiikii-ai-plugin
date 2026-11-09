@@ -1,0 +1,11 @@
+{
+    "name": "kiikii",
+    "version": "0.9.0",
+    "description": "在 AI 客户端中使用 kiikii：查询积分，管理数字人形象与音色，生成数字人口播、MV、带货、探店视频，也可生成图片、通用视频与配音。",
+    "author": {
+        "name": "kiikii"
+    },
+    "homepage": "https://ai.kiikii.vip",
+    "repository": "https://github.com/zhwenjie123/kiikii-ai-plugin",
+    "keywords": ["mcp", "skills", "digital-human", "video", "image", "audio"]
+}

@@ -1,0 +1,8 @@
+{
+    "mcpServers": {
+        "kiikii": {
+            "type": "http",
+            "url": "https://api.kiikii.vip/api/mcp"
+        }
+    }
+}

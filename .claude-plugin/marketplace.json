@@ -1,0 +1,19 @@
+{
+    "name": "kiikii",
+    "owner": {
+        "name": "kiikii"
+    },
+    "metadata": {
+        "description": "kiikii 数字人创作台：数字人视频、图片、通用视频与配音。",
+        "version": "0.9.0"
+    },
+    "plugins": [
+        {
+            "name": "kiikii",
+            "description": "在 AI 客户端中使用 kiikii：查询积分，管理数字人形象与音色，生成数字人口播、MV、带货、探店视频，也可生成图片、通用视频与配音。",
+            "source": "./",
+            "strict": false,
+            "skills": ["./skills/kiikii-digital-human"]
+        }
+    ]
+}
