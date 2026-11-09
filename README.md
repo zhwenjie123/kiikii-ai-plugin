@@ -2,7 +2,7 @@
 
 把 kiikii 的数字人、AI 创作能力接入支持 MCP / Skill 的 AI 客户端。
 
-- 官网：https://ai.kiikii.vip
+- 官网：https://kiikii.cc
 - MCP 服务：https://api.kiikii.vip/api/mcp
 - 当前版本：0.9.0
 
