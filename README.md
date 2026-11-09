@@ -133,6 +133,13 @@ https://ai.kiikii.vip/profile?section=apiKeys
 - **轮询**：创作任务建议每 10–20 秒查询一次，不要高频轮询。
 - **密钥**：API Key 只保存在用户本地；插件包内不包含任何可用密钥。
 
+## 发布边界
+
+- 本仓库只发布 AI 插件包（`kaifa/kiikii`）：MCP 配置、SKILL、插件清单、安装文档和 release zip。
+- **backend / frontend 项目源码只推送 GitCode，禁止上传到 GitHub。**
+- MCP 工具、SKILL、连接器/插件清单或安装文档有变化时，必须同步更新本插件包并推送到 GitHub。
+- 不要把数据库配置、API Key、用户数据或项目业务代码放进本仓库。
+
 ## 版本与发布
 
 1. 修改 `SKILL.md`、MCP 配置或工具说明时，同步更新：

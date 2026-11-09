@@ -2,6 +2,7 @@
 
 ## 0.9.0
 
+- 明确发布边界：GitHub 只发布 AI 插件包；backend/frontend 项目源码只推送 GitCode，禁止上传 GitHub。
 - 新增 `scripts/kiikii-mcp-call.mjs`：可执行本地命令的客户端拿到 API Key 后可直接调用 MCP 工具，无需手工配置 MCP 或重启客户端。
 - 插件图标替换为新的 kiikii logo（`icon.svg` 内嵌 PNG，同时提供 `icon.png`）。
 - 新增「MCP 未连接」引导：当客户端检测不到 kiikii 工具时，不再只回复“环境没有工具”，而是说明连接问题、给出 API Key 创建链接（`/profile?section=apiKeys`）、MCP 配置模板和各客户端配置步骤。

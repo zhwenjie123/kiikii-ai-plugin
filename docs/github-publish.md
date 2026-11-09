@@ -1,5 +1,11 @@
 # 发布到 GitHub 的完整流程
 
+## 发布边界（重要）
+
+- 本 GitHub 仓库**只发布 AI 插件包**（`kaifa/kiikii`），包括 MCP 配置、SKILL、插件清单、安装文档和 release zip。
+- **backend / frontend 项目源码只推送 GitCode，禁止上传到 GitHub。**
+- 不得把数据库配置、API Key、用户数据、项目业务代码混入本仓库。
+
 本文假设你已经在本机准备好了这个插件目录，且还没有 GitHub 仓库。
 
 ## 0. 发布前检查
